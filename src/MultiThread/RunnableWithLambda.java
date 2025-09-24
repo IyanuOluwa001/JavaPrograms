@@ -47,6 +47,7 @@ public class RunnableWithLambda {
         });
          */
 
+        //If we use the OR-part of this code, we would need to comment thread t1 and t2
         Thread t1 = new Thread(d1);
         Thread t2 = new Thread(d2);
 
